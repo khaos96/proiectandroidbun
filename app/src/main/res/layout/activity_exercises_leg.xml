@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_color"
+    android:fitsSystemWindows="true"
+    tools:context=".ExercisesLegActivity"
+    tools:openDrawer="start">
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/main_menu_beginner" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="SpeakableTextPresentCheck">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+
+            <include
+
+                android:id="@+id/toolbar"
+                layout="@layout/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </include>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/legs_workout"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:text="45 Calf Press"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/calf_press"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/calf_press_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:gravity="center"
+                android:text="Barbell Seated Calf Raise"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/barbell_seated_calf_raise"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/barbell_seated_calf_raise_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:gravity="center"
+                android:text="Barbell Squat"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/barbell_squat"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/barbell_squat_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:gravity="center"
+                android:text="Deadlift"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/deadlift"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/deadlift_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:gravity="center"
+                android:text="Hip Flexion"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/hip_flexion"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/hip_flexion_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:gravity="center"
+                android:text="Kick Back"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/kick_back"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/kick_back_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:gravity="center"
+                android:text="Leg Press"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/leg_press"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/leg_press_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:gravity="center"
+                android:text="Lunge"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/lunge"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/lunge_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:gravity="center"
+                android:text="Machine Leg Extension"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/machine_leg_extension"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/machine_leg_extension_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:gravity="center"
+                android:text="Machine Lying Leg Curl"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/machine_lying_leg_curl"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/machine_lying_leg_curl_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:gravity="center"
+                android:text="Machine Standing Calf Raise"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/machine_standing_calf_raise"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/machine_standing_calf_raise_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:gravity="center"
+                android:text="Seated Calf Raise"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/seated_calf_raise"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/seated_calf_raise_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:gravity="center"
+                android:text="Seated Hip Abduction"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/seated_hip_abduction"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/seated_hip_abduction_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:gravity="center"
+                android:text="Seated Hip Adduction"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/seated_hip_adduction"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/seated_hip_adduction_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:gravity="center"
+                android:text="Sled Squat"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/sled_squat"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/sled_squat_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:gravity="center"
+                android:text="Standing Calf Raise"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/standing_calf_raise"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/standing_calf_raise_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:gravity="center"
+                android:text="Standing Hip Abduction"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/standing_hip_abduction"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/standing_hip_abduction_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:gravity="center"
+                android:text="Standing Hip Adduction"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/standing_hip_adduction"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/standing_hip_adduction_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:gravity="center"
+                android:text="Standing Hip Extension"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/standing_hip_extension"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/standing_hip_extension_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:gravity="center"
+                android:text="Step Up"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/step_up"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/step_up_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
+

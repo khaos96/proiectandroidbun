@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_color"
+    tools:context=".StepUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10sp"
+            android:background="#CC141414"
+            android:fontFamily="@font/raleway_bold"
+            android:gravity="center"
+            android:text="Step-Up"
+            android:textColor="	#91a3b0"
+            android:textSize="25sp">
+
+        </TextView>
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            app:autoPlay="true"
+            app:videoId="BeN9ZcYY5iM" />
+
+        <ImageView
+            android:id="@+id/i"
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/barbell_squat_muscle">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="-105dp"
+            android:text="Muscles involved"
+            android:textSize="17sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="5dp"
+            android:text="MAIN: gluteus maximus, quadriceps"
+            android:textSize="13sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="5dp"
+            android:text="SECONDARY: hamstrings, adductors"
+            android:textSize="13sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="5dp"
+            android:text="ANTAGONISTS: iliopsoas, sartori"
+            android:textSize="13sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Execution"
+            android:textSize="17sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/step_up_ex">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="  Stand in front of the step holding a dumbbell in one hand. (Use the other
+to keep your balance.) Place one foot on the step, which should be slightly
+below knee height, and step up onto it using only the strength of the raised
+leg. Keep your back straight. Change feet to step down and repeat the
+movement. Breathe in just before stepping up and out as you step down.
+You can also breathe naturally."
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Common mistakes"
+            android:textSize="17sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3sp"
+            android:text="  Using your back foot (calf muscles) to give you a boost or, if
+you hang on to something for balance, pulling yourself up with that hand; bouncing
+before stepping up to gain momentum; leaning too far forward as you step up and
+poor balance."
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Variation"
+            android:textSize="17sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <ImageView
+            android:id="@+id/pic1"
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/step_up_v1">
+
+        </ImageView>
+
+        <ImageView
+
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/step_up_v2">
+
+        </ImageView>
+
+        <ImageView
+
+            android:layout_width="300dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/step_up_v3">
+
+        </ImageView>
+
+
+        <Button
+            android:id="@+id/stepupbtn"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/buttonbackground"
+            android:text="BACK">
+
+        </Button>
+
+    </LinearLayout>
+
+
+</ScrollView>

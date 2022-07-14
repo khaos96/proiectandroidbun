@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_color"
+    tools:context=".ChooseFavoriteIntermediateActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Favorite List"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <RelativeLayout
+
+            android:layout_width="250dp"
+            android:layout_height="350dp"
+            android:layout_centerInParent="true">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Workouts"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+            <ImageView
+                android:id="@+id/favlistwork"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:paddingTop="40dp"
+                android:src="@drawable/workout">
+
+            </ImageView>
+
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/backfavoritelistworkoutbtn"
+            android:layout_width="130dp"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="@color/black"
+            android:text="Back"
+            android:textSize="14dp"
+            android:textStyle="bold">
+
+        </Button>
+
+
+    </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+

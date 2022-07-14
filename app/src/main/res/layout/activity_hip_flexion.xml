@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_color"
+    tools:context=".HipFlexionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10sp"
+            android:background="#CC141414"
+            android:fontFamily="@font/raleway_bold"
+            android:gravity="center"
+            android:text="Hip Flexion"
+            android:textColor="	#91a3b0"
+            android:textSize="25sp">
+
+        </TextView>
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            app:autoPlay="true"
+            app:videoId="mY0zo3r_soE" />
+
+        <ImageView
+            android:id="@+id/i"
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/standing_hip_extension_muscle">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="-105dp"
+            android:text="Muscles involved"
+            android:textSize="17sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="5dp"
+            android:text="MAIN: psoas (major and minor), iliacus"
+            android:textSize="13sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="5dp"
+            android:text="SECONDARY: front quadriceps, tensor fasciae latae, sartorius, pectineus, adductors (long
+and short), gluteus minimus, (gluteus medius - front fibers), obturators"
+            android:textSize="13sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="5dp"
+            android:text="ANTAGONISTS: gluteus maximus, hamstrings"
+            android:textSize="13sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Execution"
+            android:textSize="17sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/hip_flexion_ex">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="  Stand with your back to a low cable with your body bent slightly forward.
+Hold on to something for support or place your hands on your hips. Attach
+the ankle band to the cable and bring your leg forward. It is usually easier to
+bend your knee if you want to focus on the front quadriceps. Nevertheless,
+the iliopsoas remains the most powerful hip flexor. "
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Common mistakes"
+            android:textSize="17sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3sp"
+            android:text="  Rocking the body to help the movement, bouncing the weight
+at the bottom of the movement and using too much weight."
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Variation"
+            android:textSize="17sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <ImageView
+            android:id="@+id/pic1"
+            android:layout_width="350dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/hip_flexion_v1">
+
+        </ImageView>
+
+        <ImageView
+
+            android:layout_width="350dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/hip_flexion_v2">
+
+        </ImageView>
+
+
+        <Button
+            android:id="@+id/hipflexionbtn"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/buttonbackground"
+            android:text="BACK">
+
+        </Button>
+
+    </LinearLayout>
+
+
+</ScrollView>

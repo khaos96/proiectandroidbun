@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_color"
+    android:orientation="vertical"
+    tools:context=".TricepsAdvanced1WorkoutActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#D66B0D">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Advanced Triceps Workout"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <TableLayout
+        android:id="@+id/beginnerchesttable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/white">
+
+        <TableRow android:background="@color/black">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="EXERCISE"
+                android:textColor="#F37041"
+                android:textSize="17dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="SETS"
+                android:textColor="#F37041"
+                android:textSize="17dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="REPS"
+                android:textColor="#F37041"
+                android:textSize="17dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="Seated Overhead\nDB Extension"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="\n5"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="\n6-8"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </TableRow>
+
+        <TableRow android:background="#CBCBCB">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="EZ-Bar Close-Grip\nBench Press"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\n5"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="\n6-8"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="Lying French Press"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="5"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="6-8"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </TableRow>
+
+        <TableRow android:background="#CBCBCB">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="V-Bar Pressdown"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="5"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="6-8"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <android.widget.Button
+        android:id="@+id/advanced1tricepsworkoutbtn"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/beginnerchesttable"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/buttonbackground"
+        android:text="Back"
+        android:textSize="15dp"
+        android:textStyle="bold">
+
+
+    </android.widget.Button>
+
+
+</RelativeLayout>

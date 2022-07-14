@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_color"
+    tools:context=".CableUprightRowActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10sp"
+            android:background="#CC141414"
+            android:fontFamily="@font/raleway_bold"
+            android:gravity="center"
+            android:text="One-Arm Cable Rear Lateral Raise"
+            android:textColor="	#91a3b0"
+            android:textSize="25sp">
+
+        </TextView>
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            app:autoPlay="true"
+            app:videoId="9Q-j2tPu2Sk" />
+
+        <ImageView
+            android:id="@+id/i"
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/shoulder_fly_muscle">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="-105dp"
+            android:text="Muscles involved"
+            android:textSize="17sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="5dp"
+            android:text="MAIN: deltoid
+"
+            android:textSize="13sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="5dp"
+            android:text="SECONDARY: trapezius, levator scapulae, supraspinatus, biceps, forearm flexor muscles,
+rhomboids, lower back muscles
+"
+            android:textSize="13sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="5dp"
+            android:text="ANTAGONISTS: latissimus dorsi, pectoralis major, triceps"
+            android:textSize="13sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Execution"
+            android:textSize="17sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/cable_upright_row_ex">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="  Stand with your feet slightly apart, your torso straight and held firmly in
+place. Hold the bar in front of your thighs in an overhand grip (palms
+facing your legs) with your hands a little less than shoulder-width apart.
+Pull the bar up to your neck, keeping it close to your body throughout the
+movement. The elbows should rise and remain higher than your hands.
+Breathe in as you begin to raise the bar and exhale as you lower it.
+
+"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Common mistakes"
+            android:textSize="17sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3sp"
+            android:text="  Lifting the hands higher than the elbows, swinging the body, jerking the
+weight upward to gain momentum, and holding the bar too far from the body."
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Variation"
+            android:textSize="17sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <ImageView
+            android:id="@+id/pic1"
+            android:layout_width="350dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/cable_upright_row_v1">
+
+        </ImageView>
+
+        <ImageView
+
+            android:layout_width="350dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/cable_upright_row_v2">
+
+        </ImageView>
+
+
+        <Button
+            android:id="@+id/cableuprightrowbtn"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/buttonbackground"
+            android:text="BACK">
+
+        </Button>
+
+    </LinearLayout>
+
+
+</ScrollView>

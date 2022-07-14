@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home_a"
+            android:icon="@drawable/ic_baseline_login_24"
+            android:title="Switch Exercises"></item>
+
+        <item
+            android:id="@+id/nav_switchintermediate_a"
+            android:icon="@drawable/ic_baseline_login_24"
+            android:title="Switch Workouts"></item>
+
+    </group>
+
+
+    <item
+
+        android:title="Profile">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+
+                <item
+                    android:id="@+id/nav_progress_a"
+                    android:icon="@drawable/progress"
+                    android:title="Progress"></item>
+                <item
+                    android:id="@+id/nav_logout_a"
+                    android:icon="@drawable/ic_baseline_exit_to_app_24"
+                    android:title="Logout"></item>
+
+
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

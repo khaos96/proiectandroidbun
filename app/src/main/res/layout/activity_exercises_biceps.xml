@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_color"
+    android:fitsSystemWindows="true"
+    tools:context=".ExercisesBicepsActivity"
+    tools:openDrawer="start">
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/main_menu_beginner" />
+
+
+
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="SpeakableTextPresentCheck"
+        >
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+
+            <include
+
+                android:id="@+id/toolbar"
+                layout="@layout/toolbar"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+            </include>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/biceps_workout"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Barbell Curl"
+                android:layout_marginTop="50dp"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/barbell_curl"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/barbell_curl_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Barbell Preacher Curl"
+                android:layout_marginTop="70dp"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/barbell_preacher_curl"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/barbell_preacher_curl_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Cable Curl"
+                android:layout_marginTop="70dp"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/cable_curl"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/cable_curl_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Dumbbell Concentration Curl"
+                android:layout_marginTop="70dp"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/dumbbell_concentration_curl"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/dumbbell_concentration_curl_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Dumbbell Curl"
+                android:layout_marginTop="70dp"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/dumbbell_curl"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/dumbbell_curl_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Machine Curl"
+                android:layout_marginTop="70dp"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/machine_curl"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/machine_curl_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="One-Arm High-Cable Curl"
+                android:layout_marginTop="70dp"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/one_arm_high_cable_curl"
+                android:layout_width="400dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:background="@drawable/onre_arm_high_cable_curl_bg"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
+

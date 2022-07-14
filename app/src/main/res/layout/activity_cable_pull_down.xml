@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_color"
+    tools:context=".CablePullDownActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10sp"
+            android:background="#CC141414"
+            android:fontFamily="@font/raleway_bold"
+            android:gravity="center"
+            android:text="Cable Pull-Down"
+            android:textColor="	#91a3b0"
+            android:textSize="25sp">
+
+        </TextView>
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            app:autoPlay="true"
+            app:videoId="AOpi-p0cJkc" />
+
+        <ImageView
+            android:id="@+id/i"
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/chin_up_muscle">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="-105dp"
+            android:text="Muscles involved"
+            android:textSize="17sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="5dp"
+            android:text="MAIN: latissimus dorsi, biceps (short head), teres major"
+            android:textSize="13sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="5dp"
+            android:text="SECONDARY:  pectoralis major (lower and outside), triceps (long head), teres minor,
+rhomboids, brachioradialis, biceps (long head), deltoid (front and rear)"
+            android:textSize="13sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="5dp"
+            android:text="ANTAGONISTS: deltoid, pectoralis major (upper), triceps"
+            android:textSize="13sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Execution"
+            android:textSize="17sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/cable_pull_down_ex">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="  Stand with your back straight and your upper thighs aligned with the cable pulley machine. Grip the bar with both hands and slowly pull it down toward the chest.As you lower, exhale as you raise both arms and thighs, keeping the air in the lungs as you breathe."
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Common mistakes"
+            android:textSize="17sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3sp"
+            android:text="  Lowering the bar to the belly (not enough weight); bending the torso
+to get help from the chest and abdominal muscles; incomplete movement; extending the torso
+to bring in the lower back muscles; and an uneven or too wide grip."
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Variation"
+            android:textSize="17sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageView
+
+            android:layout_width="250dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/pic2"
+            android:src="@drawable/cable_pull_down_v4">
+
+        </ImageView>
+
+
+        <ImageView
+            android:id="@+id/pic1"
+            android:layout_width="250dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/cable_pull_down_v1">
+
+        </ImageView>
+
+        <ImageView
+
+            android:layout_width="250dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/cable_pull_down_v2">
+
+        </ImageView>
+
+
+        <ImageView
+
+            android:layout_width="250dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/pic2"
+            android:src="@drawable/cable_pull_down_v3">
+
+        </ImageView>
+
+
+        <Button
+            android:id="@+id/cablepulldowntbn"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/buttonbackground"
+            android:text="BACK">
+
+        </Button>
+
+    </LinearLayout>
+
+
+</ScrollView>

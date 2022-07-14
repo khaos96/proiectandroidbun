@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home"></item>
+        <item
+            android:id="@+id/nav_switchintermediate"
+            android:icon="@drawable/ic_baseline_login_24"
+            android:title="Switch Workouts"></item>
+
+
+    </group>
+
+    <item
+
+        android:title="Exercises">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_chest_exercises"
+                    android:title="Chest"></item>
+
+
+                <item
+                    android:id="@+id/nav_back_exercises"
+                    android:title="Back"></item>
+
+                <item
+                    android:id="@+id/nav_neckshoulder_exercises"
+                    android:title="Neck/Shoulder"></item>
+
+                <item
+                    android:id="@+id/nav_biceps_exercises"
+                    android:title="Biceps"></item>
+
+                <item
+                    android:id="@+id/nav_triceps_exercises"
+                    android:title="Triceps"></item>
+
+                <item
+                    android:id="@+id/nav_legs_workout"
+                    android:title="Legs"></item>
+
+                <item
+                    android:id="@+id/nav_abdominal_exercises"
+                    android:title="Abdomen/Lower Back"></item>
+
+                <item
+                    android:id="@+id/nav_forearm_exercises"
+                    android:title="Forearm"></item>
+
+
+            </group>
+        </menu>
+    </item>
+
+
+    <item
+
+        android:title="Profile">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_baseline_account_box_24"
+                    android:title="Profile"></item>
+                <item
+                    android:id="@+id/nav_progress"
+                    android:icon="@drawable/progress"
+                    android:title="Progress"></item>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_baseline_exit_to_app_24"
+                    android:title="Logout"></item>
+
+
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

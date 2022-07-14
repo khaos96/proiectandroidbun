@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_color"
+    android:fitsSystemWindows="true"
+    tools:context=".TricepsIntermediateWorkoutActivity"
+    tools:openDrawer="start">
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/main_menu_beginner" />
+
+
+
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="SpeakableTextPresentCheck"
+        >
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+
+            <include
+
+                android:id="@+id/toolbar"
+                layout="@layout/toolbar"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+            </include>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/triceps_workout"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/chest_beginner"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/manechin_chest"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent"
+                    android:background="#99141414"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Chest"
+                    android:textColor="@color/white"
+                    android:textSize="10dp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/back_beginner"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/manechin_back"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent"
+                    android:background="#99141414"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Back"
+                    android:textColor="@color/white"
+                    android:textSize="10dp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/neck_shoulder_beginner"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/manechin_neck_shoulder"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent"
+                    android:background="#99141414"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Neck\n Shoulder"
+                    android:textColor="@color/white"
+                    android:textSize="10dp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/biceps_beginner"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/manechin_biceps"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent"
+                    android:background="#99141414"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Biceps"
+                    android:textColor="@color/white"
+                    android:textSize="10dp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/triceps_beginner"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/manechin_triceps"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent"
+                    android:background="#99141414"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Triceps"
+                    android:textColor="@color/white"
+                    android:textSize="10dp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/forearm_beginner"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/manechin_forearm"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent"
+                    android:background="#99141414"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Forearm"
+                    android:textColor="@color/white"
+                    android:textSize="10dp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/legs_beginner"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/manechin_legs"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent"
+                    android:background="#99141414"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Legs"
+                    android:textColor="@color/white"
+                    android:textSize="10dp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/abdomen_lowerback_beginner"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/manechin_abdomen_lowerback"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent"
+                    android:background="#99141414"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:padding="0dp"
+                    android:text="Abdomen \n Lower Back"
+                    android:textColor="@color/white"
+                    android:textSize="10dp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
+

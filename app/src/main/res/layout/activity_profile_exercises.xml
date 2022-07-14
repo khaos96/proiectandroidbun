@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_color"
+    tools:context=".ExercisesProfileActivity"
+    tools:openDrawer="start"
+    android:fitsSystemWindows="true">
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/main_menu_advanced">
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </include>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="70dp"
+            android:layout_below="@+id/toolbar"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/profile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="BMI Calculator"
+                android:textSize="30dp"></TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="Favorite List"
+                android:textSize="30dp"></TextView>
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/bmicalculator_beginner"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="280dp"
+            android:src="@drawable/bmi"></ImageView>
+
+        <ImageView
+            android:id="@+id/favoritelist_beginner"
+            android:layout_width="140dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="280dp"
+            android:src="@drawable/favorite_logo_2">
+
+        </ImageView>
+
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

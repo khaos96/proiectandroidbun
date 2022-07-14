@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_color"
+    android:orientation="vertical"
+    tools:context=".FullbodyWorkoutActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Full Body Workout"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#87bdd8"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/fullbody_beginner_workout"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:background="#b7d7e8"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Beginner Workout"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:textStyle="bold">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fullbody_20min_workout"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:background="#77a8a8"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="20-Minute Workout"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:textStyle="bold">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fullbody_athome_workout"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:background="#d9ecd0"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="At-Home Workout"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:textStyle="bold">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fullbody_advanced_workout"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:background="#8b6f47"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Advanced Workout "
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:textStyle="bold">
+
+            </TextView>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/fullbody_power_workout"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="15dp"
+            android:background="#625750"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Power/Strength Workout"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:textStyle="bold">
+
+            </TextView>
+        </LinearLayout>
+
+
+        <android.widget.Button
+            android:id="@+id/fullbodyworkoutbackbtn"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonbackground"
+            android:text="Back"
+            android:textSize="15dp"
+            android:textStyle="bold">
+
+
+        </android.widget.Button>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

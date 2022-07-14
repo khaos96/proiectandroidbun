@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/exnumber"
+        android:layout_alignBaseline="@+id/exname"
+        android:layout_marginBottom="2dp"
+        android:textColor="#A9E0F4"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/exname"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="28dp"
+        android:textColor="#000"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:id="@+id/excopy"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/exremove"
+        android:src="@drawable/copy">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:id="@+id/exremove"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="18dp"
+        android:src="@drawable/remove"
+        android:layout_alignParentRight="true">
+
+    </ImageView>
+</RelativeLayout>

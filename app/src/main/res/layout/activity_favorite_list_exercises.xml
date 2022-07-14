@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_color"
+    tools:context=".FavoriteListExercisesActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="#99141414">
+
+        <EditText
+            android:id="@+id/inputex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:hint="Enter item here"
+            android:lines="1"
+            android:maxLines="1"
+            android:textSize="20sp">
+
+        </EditText>
+
+
+
+        <ImageView
+            android:id="@+id/addexercise"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/inputex"
+            android:src="@drawable/ic_additem">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listviewex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/header"
+        android:layout_marginBottom="20dp">
+
+    </ListView>
+
+</RelativeLayout>

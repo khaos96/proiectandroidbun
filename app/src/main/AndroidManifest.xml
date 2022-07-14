@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fitnessapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FitnessApp">
+        <activity
+            android:name=".ViewProgressActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProgressActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FavoriteListExercisesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FullbodyPowerWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FullbodyAthomeWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FullbodyAdvancedWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FullbodyMin20WorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FullbodyBeginnerWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UpperbodyAdvancedWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Upperbody20MinWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UpperbodyAthomeWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UpperbodyPowerWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UpperbodyBeginnerWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AbdomenAdvanced3WorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AbdomenAdvanced2WorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AbdomenAdvanced1WorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AbdomenAthomeWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Abdomen15MinuteWorkouyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AbdomenBeginnerWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TricepsAdvanced3WorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TricepsAdvanced2WorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TricepsAdvanced1WorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TricepsAthomeWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TricepsMinute15WorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TricepsBeginnerWorkouttActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BicepsAdvanced3WorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BicepsAdvanced2WorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BicepsAdvanced1WorkouyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BicepsAthomeWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Biceps15MinWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BicepsBeginnerWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LegsAdvanced3WorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LegsAdvanced2WorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LegsAdvanced1WorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LegsAthomeWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Legs15MinWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LegsBeginnerWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DeltsAdvanced3WorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DeltsAdvanced2WorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DeltsAdvanced1WorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DeltsAthomeWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Delts15MinWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DeltsBeginnerWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Advanced3BackWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Advanced2BackWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Advanced1BackWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AthomeBackWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Min15BackWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BeginnerBackWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Advanced3ChestWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Advanced2ChestWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Advanced1ChestWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AthomeChestWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Min15ChestWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BeginnerChestWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FullbodyWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UpperbodyWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AbdomenWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LegsWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TricepsWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BicepsWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DeltsWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BackWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChestWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HipFlexionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StandingHipExtensionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SeatedHipAbductionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SeatedHipAdductionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SeatedCalfRaiseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CalfPress45Activity"
+            android:exported="true" />
+        <activity
+            android:name=".MachineStandingCalfRaiseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MachineLyingLegCurlActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MachineLegExtensionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LegPressActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SledSquatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StandingHipAdductionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StandingHipAbductionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".KickBackActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BarbellSeatedCalfRaiseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StandingCalfRaiseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DeadLiftLegActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LungeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StepUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BarbellSquatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SeatedRowBackExtensionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TwisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StandingCableCrunchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SeatedMachineCrunchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DeadliftActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LateralCrunchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SideBendActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TwistsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ScrissorsCrunchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".VerticalLegRaiseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LyingLegRaiseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RomanChairSitUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CrunchesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BackExtensionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CableShrugActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CableUprightRowActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SeatedMachineRearLatRaiseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".OneArmCableRearLatRaiseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".OneArmCableFrontRaiseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".OneArmCrossableLateralRaiseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MachineLateralRaiseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SmithMachineMilitaryPressActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MachineShoulderPressActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DumbbellShrugActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BarbellUprightRowActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DumbbellLyingLateralRaiseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DumbbellRearLateralRaiseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DumbbellFrontRaiseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".OneArmDumbbellLateralRaiseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ShoulderFlyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FrontDumbbellPressActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SeatedDumbbellShoulderPressActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SeatedBarbellMilitaryPressActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RopePushDownActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CablePushDownActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DumbbellOverheadTricepsExtensionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NarrowGripBenchPressActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DumbbellKickBackActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TricepsPushUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ParallelBarDipActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DumbbellFrenchPressActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LyingFrenchPressActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NeutralDumbbellWristCurlActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WristRollerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ReverseBarbellCurlActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SeatedReverseBarbellWristCurlActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StandingBarbellWristCurlActivity"
+            android:exported="true" />
+        <activity
+            android:name=".OneArmCableCurlActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CableCurlActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MachineCurlActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DumbbellConcentrationCurlActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ScottCurlActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DumbbellCurlActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BarbellCurlActivity"
+            android:exported="true" />
+        <activity
+            android:name=".OneArmMachineLatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AssistedPullUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StandingCablePullOverActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StandingLowCableRowActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MachineSeatedRowActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SeatedCableRowActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CablePullDownActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MachineLatPullDownActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DumbPullOverBackActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BentOverDumbActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TBarRowActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BentOverBarbellLowActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChinUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ButterflyPressActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CableFlyesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CableCrossoverActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MultiPowerBenchPressActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MachineBenchPressActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DumbbellPullOverActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ParallelDipsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PushupActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DumbbellFlyesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DumbbellPressActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DeclineBenchPressActivity"
+            android:exported="true" />
+        <activity
+            android:name=".InclineBenchPressActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BenchPressActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChooseFavoriteAdvancedActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChooseFavoriteIntermediateActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChooseFavoriteBeginnerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AbdomenLBAdvancedWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LegsAdvancedWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ForearmAdvancedWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NeckShoulderAdvancedWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TricepsAdvancedWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BicepsAdvancedWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BackAdvancedWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChestAdvancedWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AbdomenLBIntermediateWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LegsIntermediateWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ForearmIntermediateWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".NeckShoulderIntermediateWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TricepsIntermediateWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BicepsIntermediateWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BackIntermediateWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChestIntermediateWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ExercisesAbdomenLBActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ExercisesLegActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ExercisesForearmActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ExercisesTricepsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ExercisesBicepsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ExercisesNeckShoulderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ExercisesBackActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ExercisesChestActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BIMCalculatorAdvancedActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BIMCalculatorIntermediateActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BIMSplashScreenAdvancedActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BIMSplashScreenIntermediateActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BIMAdvancedActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BIMIntermediateActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BIMCalculatorBeginnerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BIMSplashScreenBeginnerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BIMBeginnerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AdvancedProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".IntermediateProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SettingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ExercisesProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AdvancedActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WorkoutsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ExercisesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Chooseworkout"
+            android:exported="true" />
+        <activity
+            android:name=".ResetActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RememberActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SignInActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".Reminder">
+
+        </receiver>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_color"
+    android:orientation="vertical"
+    tools:context=".UpperbodyAthomeWorkoutActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#D66B0D">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="At Home Upper Body Workout"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <TableLayout
+        android:id="@+id/beginnerchesttable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/white">
+
+        <TableRow android:background="@color/black">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="EXERCISE"
+                android:textColor="#F37041"
+                android:textSize="17dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="SETS"
+                android:textColor="#F37041"
+                android:textSize="17dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="REPS"
+                android:textColor="#F37041"
+                android:textSize="17dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="Barbell Row\n(superset with)\nIncline DB Press"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="3\n\n3"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="8-12\n\n8-12"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </TableRow>
+
+        <TableRow android:background="#CBCBCB">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="Flat-Bench Press\n(superset with)\nOne-Arm DB Row"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="2\n\n2"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="8-12\n\n8-12"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="Seated DB Press\n(superset with)\nMixed-Grip Barbell Shrug"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="3\n\n3"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="8-12\n\n8-12"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </TableRow>
+
+        <TableRow android:background="#CBCBCB">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="Bent-Over Lateral Raise\n(superset with)\nUpright Row"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="2\n\n2"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="8-12\n\n8-12"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </TableRow>
+
+        <TableRow android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="Alternate DB Curl\n(superset with)\nDB Kickback"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="2\n\n2"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="8-12\n\n8-12"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </TableRow>
+
+        <TableRow android:background="#CBCBCB">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="Seated Knee-Up\n(superset with)\nCrunch"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="2\n\n2"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="20\n\n20"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+        </TableRow>
+
+
+
+    <TableRow android:background="@color/white">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:padding="10dp"
+            android:text="Example of a superset: do the barbell row for 8–12 reps,
+followed immediately (no rest) by 8–12 reps of the incline
+press. That’s one superset. Then rest 30–90 seconds and
+repeat the process. Once you complete three supersets,
+move onto the next superset combo — flat-bench presses
+and one-arm rows."
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+    </TableRow>
+
+
+    </TableLayout>
+
+    <android.widget.Button
+        android:id="@+id/athomeupperbodyworkoutbtn"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/beginnerchesttable"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/buttonbackground"
+        android:text="Back"
+        android:textSize="15dp"
+        android:textStyle="bold">
+
+
+    </android.widget.Button>
+
+
+</RelativeLayout>
